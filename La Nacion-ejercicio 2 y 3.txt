@@ -1,0 +1,20 @@
+Ejercicio 2 ._ Para este ejercicio utilice 2 funciones, una funcion (function multiplo) que toma 2 valores como argumento
+para realizar una cuenta y en base al resultado crear una condicion para que cuando el resultado de dicha
+cuenta sea 0 (cero) la condicion retorne true, de no ser asi retorne false, de esa manera poder verificar
+si los numeros pasados como argumento son multiplos entre si.
+La segunda funcion (function newArray) ejecuta el metodo map a un array de numeros para poder ejecutarle una funcion a cada elemento
+de dicho array, cada elemento es pasado como argumento a la primer funcion (function multiplo) junto con un segundo argumento, en 
+este caso ese segundo valor es 3 o 5. El retorno de esta funcion es tomado para realizar tres nuevos condicionales en la funcion (function newArray),
+esta condicion agregara un valor string a un nuevo array, dependiendo de cual condicion se cumpla
+
+Ejercicio 3 ._
+
+1)._Para guardar archivos subidos por el usario utilizaria una base de datos como Sql o mongodb.
+Primero utilizaria una Restful API como interfaz para conectar al usuario con el servidor y a
+través de un metodo post enviar los archivos para que el servidor los almacene en la base de datos
+
+
+2)._ Si implementaria una memoria cache del lado del cliente, para tener una mayor velocidad de renderizado y rendimiento
+ya que al almacenar datos del usuario dentro de una memoria transitoria, no habria nececidad de conectar con la base
+de datos principal de sitio ante cada solicitud. Ademas tener una memoria local ayudaria a la recuperacion de
+contenido y administrar los sistemas de sesion del usuario 
